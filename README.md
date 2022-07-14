@@ -1,5 +1,5 @@
 # docker
-Dockercli
+Regular most useed git and docker command
 
 ## Docker remove images
  docker rmi IMAGEID IMAGEID 
