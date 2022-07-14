@@ -13,3 +13,25 @@ Dockercli
  
  ## docker image build
  sudo docker build -t CONTAINERNAME . 
+ 
+ ## Set global commit name and email address 
+
+```
+git config --global user.name "Your Name"
+git config --global user.email "youremail@yourdomain.com"
+```
+
+To see git commit information
+
+```
+git config --list
+```
+
+Set commit in single repository
+
+```
+git config user.name "Your Name"
+git config user.email "youremail@yourdomain.com"
+```
+
+
