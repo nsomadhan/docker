@@ -10,3 +10,6 @@ Dockercli
  docker stop $(docker ps -a -q)
 ## Delete all stopped containers
  docker rm $(docker ps -a -q)
+ 
+ ## docker image build
+ sudo docker build -t CONTAINERNAME . 
