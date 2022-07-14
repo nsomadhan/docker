@@ -9,4 +9,4 @@ Dockercli
 ## Stop all running containers
  docker stop $(docker ps -a -q)
 ## Delete all stopped containers
- docker rm $(docker ps -a -
+ docker rm $(docker ps -a -q)
